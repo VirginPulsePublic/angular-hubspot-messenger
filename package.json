@@ -1,0 +1,32 @@
+{
+  "name": "angular-messenger",
+  "description": "Angular Messenger - An Angular implementation of Messenger toast-style notifications",
+  "version": "0.0.1",
+  "homepage": "http://github.com/VirginPulsePublic/angular-messenger",
+  "author": "James Martin <james.martin@virginpulse.com>",
+  "main": "./src/angular-messenger.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VirginPulsePublic/angular-messenger.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],  
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "~ 0.8.0",
+    "grunt": ">= 0.4.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-release": "~0.3.3",
+    "grunt-conventional-changelog": "0.0.12"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js --single-run --browsers Chrome",
+    "test-server": "karma start test/karma.conf.js --browsers Chrome"
+  }
+}
