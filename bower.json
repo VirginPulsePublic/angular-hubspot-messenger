@@ -1,14 +1,14 @@
 {
-  "author": "revolunet",
-  "name": "angular-google-analytics",
-  "description": "Easy Analytics for your AngularJS application",
-  "version": "0.0.6",
-  "homepage": "https://github.com/revolunet/angular-google-analytics",
+  "author": "James Martin",
+  "name": "angular-messenger",
+  "description": "AngularJS Messenger toast-like notifications",
+  "version": "0.0.1",
+  "homepage": "https://github.com/VirginPulsePublic/angular-messenger",
   "repository": {
     "type": "git",
-    "url": "git://github.com/revolunet/angular-google-analytics.git"
+    "url": "git://github.com/VirginPulsePublic/angular-messenger.git"
   },
-  "main": "./dist/angular-google-analytics.min.js",
+  "main": "./dist/angular-messenger.min.js",
   "dependencies": {
     "angular": ">=1",
     "messenger": "~1.4.1"
@@ -16,5 +16,6 @@
   "devDependencies": {
     "angular-mocks": ">=1",
     "angular-scenario": ">=1"
-  }
+  },
+  "_release": "0.0.1"
 }
