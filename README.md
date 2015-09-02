@@ -1,14 +1,24 @@
-# angular-messenger
+# angular-hubspot-messenger
 
 An AngularJS wrapper for the Hubspot Messenger toast notification library
 
 ##Dependencies
 
-In order to use angular-messenger, you must install hubspot messenger and ensure that you have included:
+In order to use angular-hubspot-messenger, you must install the base hubspot messenger and ensure that you have included:
 
 * messenger.js (or messenger.min.js)
 * messenger.css
 * a theme css in messenger (for example, messenger-theme-future.css)
+
+##Installation
+
+To install, you can:
+
+1. Download file, include /dist/angular-messenger.min.js in your project
+
+or 
+
+2. bower install angular-hubspot-messenger
 
 ##Setup
 
